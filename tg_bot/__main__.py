@@ -50,9 +50,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-**🅷🅴🅻🅻🅾️ {}, ᴍʏ ɴᴀᴍᴇ ɪs *{}*!\n 
+**🅷🅴🅻🅻🅾️ {},
+ᴍʏ ɴᴀᴍᴇ ɪs *{}*!\n 
+
 ᴘᴇᴏᴘʟᴇ's sᴏᴍᴇᴛɪᴍᴇ ғɪɴᴅ *ʜᴀʀᴅ* ᴛᴏ ᴍᴀɴᴀɢᴇ ᴛʜᴇɪʀ ɢʀᴏᴜᴘs, *sᴏ ɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ*.\n
-[ᴍʏ Mⱥຮteℝ🔥](t.me/shrvan42).
+[ᴍʏ Mⱥຮteℝ🔥](t.me/mkspali).
  
 ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ /help.
 """
@@ -78,7 +80,7 @@ USER_SETTINGS = {}
 
 
 SOURCE_STRING = """
-[here](https://github.com/shrvan42/JARVIS_BOT)
+[here](t.me/mkspali)
 """
 
 
@@ -131,8 +133,8 @@ def send_help(chat_id, text, keyboard=None):
 @run_async
 def alain(bot: Bot, update: Update):
     pprint(eval(str(update)))
-    update.effective_message.reply_text("📬*ʀᴇᴘᴏ ғᴏʀ ʙʟᴀᴄᴋ ʟᴇɢᴇɴᴅ ʙᴏᴛ ɪs* :- [ᴄʟɪᴄᴋ ʜᴇʀᴇ](t.me/JARVIS_SOURCE_CODE)", parse_mode=ParseMode.MARKDOWN)
-    update.effective_message.reply_text("📬*ʀᴇᴘᴏ ғᴏʀ ʙʟᴀᴄᴋ ʟᴇɢᴇɴᴅ ʙᴏᴛ ɪs* :- [ᴄʟɪᴄᴋ ʜᴇʀᴇ](t.me/JARVIS_SOURCE_CODE)_", parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_text("📬*ʀᴇᴘᴏ ғᴏʀ ʙʟᴀᴄᴋ ʟᴇɢᴇɴᴅ ʙᴏᴛ OWNER ɪs* :- [ᴄʟɪᴄᴋ ʜᴇʀᴇ](t.me/mkspali)", parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_text("📬*ʀᴇᴘᴏ ғᴏʀ ʙʟᴀᴄᴋ ʟᴇɢᴇɴᴅ ʙᴏᴛ OWNER ɪs* :- [ᴄʟɪᴄᴋ ʜᴇʀᴇ](t.me/mkspali)_", parse_mode=ParseMode.MARKDOWN)
     print(update.effective_message)
 
 @run_async
@@ -171,17 +173,17 @@ def start(bot: Bot, update: Update, args: List[str]):
                             callback_data="help_back".format(bot.username)),
                          InlineKeyboardButton(
                              text="UPDATES 🔀",
-                             url="https://t.me/tg_coders_updates")
+                             url="https://t.me/mkspali")
                      ],
                      [
                          InlineKeyboardButton(
                              text="💻 MY CREATOR 💻",
-                             url="t.me/tg_x_coders")
+                             url="t.me/mkspali")
                      ]]))
 
     else:
         update.effective_message.reply_text("╔═════════════════╗\n       「 🔥 𝗢𝗣 𝘽𝙊𝙏 🔥 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/JARVIS_SECURITY_BOT?start=help".format(bot.username))]]))
+                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/mkspali?start=help".format(bot.username))]]))
 
 
 def send_start(bot, update):
@@ -282,8 +284,8 @@ def get_help(bot: Bot, update: Update):
 
         update.effective_message.reply_text("ʜᴇʏᴀ, ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.",
                                             reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/Timepass_Assistant_bot?start=help".format(bot.username))],
-                                                [InlineKeyboardButton(text="🔀 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🔀",url="https://t.me/devilbotSUPPORT")]]))
+                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/mkspali?start=help".format(bot.username))],
+                                                [InlineKeyboardButton(text="🔀 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🔀",url="https://t.me/mkspali")]]))
                                                 
         
 
@@ -468,7 +470,7 @@ def get_settings(bot: Bot, update: Update):
             msg.reply_text(text,
                            reply_markup=InlineKeyboardMarkup(
                                [[InlineKeyboardButton(text="🎛 ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ sᴇᴛᴛɪɴɢs 🎛",
-                                                      url="t.me/timepass_assistant_bot?start=stngs_{}".format(
+                                                      url="t.me/mkspali?start=stngs_{}".format(
                                                           bot.username, chat.id))]]))
         else:
             text = "ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs 🔥."
