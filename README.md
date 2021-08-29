@@ -1,4 +1,4 @@
-<h1 align=center>😈JARVIS_RMCMG😈</h1>
+<h1 align=center>JARVIS_RMCMG</h1>
 <img src = "https://user-images.githubusercontent.com/84823049/120094205-a4157400-c13c-11eb-9a72-8d1111809eb5.jpg">
 
 # ᴡʜᴀᴛ ɪs ᴊᴀʀᴠɪs ʙᴏᴛ
