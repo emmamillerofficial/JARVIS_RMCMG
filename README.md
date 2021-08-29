@@ -1,4 +1,5 @@
-![ᴊᴀʀᴠɪs ʙᴏᴛ](https://telegra.ph/file/ad2934de00779c4a59db3.jpg)
+<h1 align=center>😈JARVIS RMCMG😈</h1>
+<img src = "https://user-images.githubusercontent.com/84823049/120094205-a4157400-c13c-11eb-9a72-8d1111809eb5.jpg">
 
 # ᴡʜᴀᴛ ɪs ᴊᴀʀᴠɪs sᴇᴄᴜʀɪᴛʏ ʙᴏᴛ
 ᴊᴀʀᴠɪs ʙᴏᴛ ɪs ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs. ᴛʜɪs ʙᴏᴛ ʜᴇʟᴘs ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴇᴀsɪʟʏ.
